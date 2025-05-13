@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBL Launcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        section {
+            padding: 20px;
+        }
+        .btn {
+            background-color: #ffcc00;
+            color: #222;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #e6b800;
+        }
+        .features, .how-it-works {
+            display: flex;
+            justify-content: space-around;
+        }
+        .feature, .step {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CBL Launcher</h1>
+        <p>O launcher leve e poderoso para Minecraft</p>
+        <div>
+            <button class="btn" onclick="window.location.href='link_para_download_microsoft'">Baixar para Microsoft</button>
+            <button class="btn" onclick="window.location.href='link_para_download_pirata'">Baixar para Pirata</button>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Interface Badlion</h2>
+            <p>Uma interface simples e funcional, igual a do Badlion Client, para uma experiência de jogo otimizada.</p>
+        </div>
+        <div class="feature">
+            <h2>Escolha Fácil</h2>
+            <p>Entre com sua conta Microsoft ou pirata e comece a jogar sem complicação.</p>
+        </div>
+        <div class="feature">
+            <h2>Mods Desativados</h2>
+            <p>Todos os mods estão desativados por padrão, mas você pode ativá-los a qualquer momento.</p>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <div class="step">
+            <h2>Passo 1</h2>
+            <p>Baixe o CBL Launcher Installer.</p>
+        </div>
+        <div class="step">
+            <h2>Passo 2</h2>
+            <p>Instale o launcher e abra-o.</p>
+        </div>
+        <div class="step">
+            <h2>Passo 3</h2>
+            <p>Escolha entre conta Microsoft ou pirata, e selecione sua versão.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CBL Launcher. Todos os direitos reservados.</p>
+        <p>Feito por Arroz. <a href="mailto:contato@cbl.com" style="color: #ffcc00;">Contato</a></p>
+    </footer>
+
+</body>
+</html>
