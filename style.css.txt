@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff6347; /* Tom de vermelho para o título */
+}
+
+.btn {
+    background-color: #008CBA; /* Azul */
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
